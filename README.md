@@ -1,3 +1,9 @@
+# DevOps Interview Platform
+
+<!-- repository-summary -->
+A full-stack interview preparation platform covering DevOps, cloud, Kubernetes, backend engineering, DSA, and system design.
+<!-- /repository-summary -->
+
 DevOps Interview Platform
 
 A production-style full-stack learning and interview preparation platform built primarily as a 15-day backend, DevOps, cloud, Kubernetes, DSA and system-design revision project.

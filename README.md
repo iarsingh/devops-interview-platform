@@ -1,5 +1,45 @@
 # DevOps Interview Platform
 
+<!-- project-guide:start -->
+## Project guide
+
+[Project architecture](PROJECT_ARCHITECTURE.md) · [Interview questions and answers](INTERVIEW_QA.md)
+
+Use the architecture document for the component diagram, implementation boundaries, and verification entry points. The interview guide includes source-backed answers and project walkthroughs.
+
+### Implementation map
+
+| Component | Responsibility |
+| --- | --- |
+| [`backend/requirements.txt`](backend/requirements.txt) | Implementation or supporting configuration |
+| [`backend/app/__init__.py`](backend/app/__init__.py) | Implementation or supporting configuration |
+| [`backend/app/main.py`](backend/app/main.py) | Implementation or supporting configuration |
+| [`backend/app/api/__init__.py`](backend/app/api/__init__.py) | Implementation or supporting configuration |
+| [`backend/app/api/dependencies.py`](backend/app/api/dependencies.py) | Implementation or supporting configuration |
+| [`backend/app/core/config.py`](backend/app/core/config.py) | Implementation or supporting configuration |
+| [`backend/app/core/exceptions.py`](backend/app/core/exceptions.py) | Implementation or supporting configuration |
+| [`backend/app/core/logging.py`](backend/app/core/logging.py) | Implementation or supporting configuration |
+| [`backend/app/core/security.py`](backend/app/core/security.py) | Implementation or supporting configuration |
+| [`backend/Dockerfile`](backend/Dockerfile) | Container build/service configuration |
+| [`backend/pyproject.toml`](backend/pyproject.toml) | Implementation or supporting configuration |
+| [`docker-compose.yml`](docker-compose.yml) | Container build/service configuration |
+| [`frontend/Dockerfile`](frontend/Dockerfile) | User interface code/assets |
+| [`README.md`](README.md) | Project explanations or operating notes |
+| [`backend/README.md`](backend/README.md) | Project explanations or operating notes |
+| [`docs/architecture/HLD.md`](docs/architecture/HLD.md) | Project explanations or operating notes |
+
+### Local setup and verification
+
+From the repository root (the commands follow the checked-in manifests):
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r backend/requirements.txt
+```
+
+<!-- project-guide:end -->
+
 <!-- repository-summary -->
 A full-stack interview preparation platform covering DevOps, cloud, Kubernetes, backend engineering, DSA, and system design.
 <!-- /repository-summary -->

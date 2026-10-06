@@ -235,3 +235,11 @@ helm/interview-platform \
 Project Goal
 
 At the end of the project, the application should be deployable from source code to GKE using an automated CI/CD pipeline with infrastructure provisioned using Terraform and full application monitoring enabled.
+
+## Documentation checks
+
+Project guides and local source links are checked on pushes and pull requests. Run locally:
+
+```bash
+python3 .github/scripts/validate_project_docs.py
+```

@@ -1,5 +1,12 @@
 # DevOps Interview Platform
 
+## Overview
+
+A full-stack interview preparation app built as a 15-day revision project for backend, DevOps, cloud, Kubernetes, DSA and system design. Users register, browse and filter questions by technology and difficulty, submit answers, get scores, and track progress and leaderboard data, while admins manage questions and categories. The design runs a FastAPI backend with PostgreSQL and Redis on GKE behind Cloud Armor, with Terraform for GCP infrastructure, GitHub Actions for lint, tests and image scans, and Helm or GitOps for delivery.
+
+- **Built with:** Python, FastAPI, PostgreSQL, Redis, JavaScript/TypeScript, Docker, Kubernetes (GKE), Helm, Terraform, GitHub Actions, Prometheus, Grafana, OpenTelemetry
+- **Scope:** Learning and revision project with daily notes; the README describes a target GCP architecture, not a live service.
+
 <!-- project-guide:start -->
 ## Project guide
 
